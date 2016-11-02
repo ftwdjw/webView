@@ -26,13 +26,31 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pw0-uf-XRb">
+                                <rect key="frame" x="262" y="20" width="56" height="30"/>
+                                <state key="normal" title="Forward"/>
+                                <connections>
+                                    <action selector="goForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNu-UA-4Vr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfS-2K-dVV">
+                                <rect key="frame" x="51" y="20" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="goBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="col-3n-6hK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="tfS-2K-dVV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="5xz-DD-6D1"/>
                             <constraint firstItem="7aQ-Nf-Pet" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Ba0-aF-Vd2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pw0-uf-XRb" secondAttribute="trailing" constant="41" id="Z0b-90-BzQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7aQ-Nf-Pet" secondAttribute="trailing" constant="-16" id="bVX-8l-JpE"/>
                             <constraint firstItem="7aQ-Nf-Pet" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="fjU-WM-Ax3"/>
                             <constraint firstItem="7aQ-Nf-Pet" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pMl-LG-VIr"/>
+                            <constraint firstItem="tfS-2K-dVV" firstAttribute="baseline" secondItem="Pw0-uf-XRb" secondAttribute="baseline" id="uSr-9c-4P7"/>
+                            <constraint firstItem="Pw0-uf-XRb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="wG3-Zy-Dzz"/>
                         </constraints>
                     </view>
                     <connections>

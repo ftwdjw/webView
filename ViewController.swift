@@ -11,6 +11,14 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBAction func goBack(_ sender: Any) {
+        webView.goBack()
+    }
+    
+    
+    @IBAction func goForward(_ sender: Any) {
+        webView.goForward()
+    }
     
     @IBOutlet weak var webView: UIWebView!
 

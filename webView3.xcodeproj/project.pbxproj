@@ -12,6 +12,8 @@
 		1B35DBCB1DCA435000558530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBCA1DCA435000558530 /* Assets.xcassets */; };
 		1B35DBCE1DCA435000558530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBCC1DCA435000558530 /* LaunchScreen.storyboard */; };
 		1B35DBD61DCA43D900558530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35DBD51DCA43D900558530 /* ViewController.swift */; };
+		1B35DBD81DCA488200558530 /* backButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBD71DCA488200558530 /* backButton.jpeg */; };
+		1B35DBDA1DCA488A00558530 /* forwardButton1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1B35DBCD1DCA435000558530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B35DBCF1DCA435000558530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B35DBD51DCA43D900558530 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		1B35DBD71DCA488200558530 /* backButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backButton.jpeg; sourceTree = "<group>"; };
+		1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forwardButton1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		1B35DBC21DCA435000558530 /* webView3 */ = {
 			isa = PBXGroup;
 			children = (
+				1B35DBD71DCA488200558530 /* backButton.jpeg */,
+				1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */,
 				1B35DBC31DCA435000558530 /* AppDelegate.swift */,
 				1B35DBD51DCA43D900558530 /* ViewController.swift */,
 				1B35DBC71DCA435000558530 /* Main.storyboard */,
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B35DBD81DCA488200558530 /* backButton.jpeg in Resources */,
 				1B35DBCE1DCA435000558530 /* LaunchScreen.storyboard in Resources */,
+				1B35DBDA1DCA488A00558530 /* forwardButton1.jpeg in Resources */,
 				1B35DBCB1DCA435000558530 /* Assets.xcassets in Resources */,
 				1B35DBC91DCA435000558530 /* Main.storyboard in Resources */,
 			);
