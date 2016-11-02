@@ -11,13 +11,25 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    
+    @IBAction func goHome(_ sender: Any) {
+        let url = NSURL (string: "http://www.wsj.com/");
+        let requestObj = NSURLRequest(url: url! as URL);
+        webView.loadRequest(requestObj as URLRequest);
+        print("\nnow at home")
+    }
+    
+    
+    
     @IBAction func goBack(_ sender: Any) {
         webView.goBack()
+        print("\ngo back")
     }
     
     
     @IBAction func goForward(_ sender: Any) {
         webView.goForward()
+        print("\ngo forward")
     }
     
     @IBOutlet weak var webView: UIWebView!

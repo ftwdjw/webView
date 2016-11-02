@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1B35DBBF1DCA435000558530"
-               BuildableName = "webView3.app"
-               BlueprintName = "webView3"
-               ReferencedContainer = "container:webView3.xcodeproj">
+               BuildableName = "my App.app"
+               BlueprintName = "my App"
+               ReferencedContainer = "container:my App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B35DBBF1DCA435000558530"
-            BuildableName = "webView3.app"
-            BlueprintName = "webView3"
-            ReferencedContainer = "container:webView3.xcodeproj">
+            BuildableName = "my App.app"
+            BlueprintName = "my App"
+            ReferencedContainer = "container:my App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B35DBBF1DCA435000558530"
-            BuildableName = "webView3.app"
-            BlueprintName = "webView3"
-            ReferencedContainer = "container:webView3.xcodeproj">
+            BuildableName = "my App.app"
+            BlueprintName = "my App"
+            ReferencedContainer = "container:my App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B35DBBF1DCA435000558530"
-            BuildableName = "webView3.app"
-            BlueprintName = "webView3"
-            ReferencedContainer = "container:webView3.xcodeproj">
+            BuildableName = "my App.app"
+            BlueprintName = "my App"
+            ReferencedContainer = "container:my App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

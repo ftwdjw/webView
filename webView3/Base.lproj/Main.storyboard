@@ -26,31 +26,59 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pw0-uf-XRb">
-                                <rect key="frame" x="262" y="20" width="56" height="30"/>
-                                <state key="normal" title="Forward"/>
-                                <connections>
-                                    <action selector="goForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNu-UA-4Vr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfS-2K-dVV">
-                                <rect key="frame" x="51" y="20" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfS-2K-dVV">
+                                <rect key="frame" x="76" y="36" width="118" height="30"/>
+                                <state key="normal" title="Back" image="backButton.jpeg"/>
                                 <connections>
                                     <action selector="goBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="col-3n-6hK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pw0-uf-XRb">
+                                <rect key="frame" x="249" y="36" width="26" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="26" id="xu7-QH-D9T"/>
+                                </constraints>
+                                <state key="normal" title="Forward" image="forwardButton1.jpeg"/>
+                                <connections>
+                                    <action selector="goForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNu-UA-4Vr"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="V9K-FY-vK7">
+                                <rect key="frame" x="172" y="36" width="26" height="30"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="52B-1J-IqP">
+                                        <rect key="frame" x="0.0" y="0.0" width="26" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpg-Xp-EFR">
+                                                <rect key="frame" x="0.0" y="0.0" width="26" height="30"/>
+                                                <state key="normal" title="Home" image="homeButton.jpeg"/>
+                                                <connections>
+                                                    <action selector="goHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="672-PZ-QdP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="52B-1J-IqP" firstAttribute="leading" secondItem="V9K-FY-vK7" secondAttribute="leading" id="CbQ-l3-WhI"/>
+                                    <constraint firstAttribute="trailing" secondItem="52B-1J-IqP" secondAttribute="trailing" id="oV7-3j-0rh"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="tfS-2K-dVV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="5xz-DD-6D1"/>
+                            <constraint firstItem="rpg-Xp-EFR" firstAttribute="width" secondItem="Pw0-uf-XRb" secondAttribute="width" id="4xI-Fm-2ag"/>
+                            <constraint firstItem="Pw0-uf-XRb" firstAttribute="leading" secondItem="V9K-FY-vK7" secondAttribute="trailing" constant="51" id="Aba-xf-h5W"/>
                             <constraint firstItem="7aQ-Nf-Pet" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Ba0-aF-Vd2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Pw0-uf-XRb" secondAttribute="trailing" constant="41" id="Z0b-90-BzQ"/>
+                            <constraint firstItem="V9K-FY-vK7" firstAttribute="top" secondItem="Pw0-uf-XRb" secondAttribute="top" id="Vhh-YG-Ot0"/>
+                            <constraint firstItem="tfS-2K-dVV" firstAttribute="top" secondItem="Pw0-uf-XRb" secondAttribute="top" id="aw6-4l-nV8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7aQ-Nf-Pet" secondAttribute="trailing" constant="-16" id="bVX-8l-JpE"/>
+                            <constraint firstItem="tfS-2K-dVV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="csp-qo-StG"/>
                             <constraint firstItem="7aQ-Nf-Pet" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="fjU-WM-Ax3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pw0-uf-XRb" secondAttribute="trailing" constant="84" id="gjy-ax-3PA"/>
+                            <constraint firstItem="Pw0-uf-XRb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="jng-hq-rWd"/>
                             <constraint firstItem="7aQ-Nf-Pet" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pMl-LG-VIr"/>
-                            <constraint firstItem="tfS-2K-dVV" firstAttribute="baseline" secondItem="Pw0-uf-XRb" secondAttribute="baseline" id="uSr-9c-4P7"/>
-                            <constraint firstItem="Pw0-uf-XRb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="wG3-Zy-Dzz"/>
+                            <constraint firstItem="Pw0-uf-XRb" firstAttribute="leading" secondItem="tfS-2K-dVV" secondAttribute="trailing" constant="55" id="wQc-yh-fMu"/>
                         </constraints>
                     </view>
                     <connections>
@@ -62,4 +90,9 @@
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backButton.jpeg" width="30" height="30"/>
+        <image name="forwardButton1.jpeg" width="30" height="30"/>
+        <image name="homeButton.jpeg" width="30" height="30"/>
+    </resources>
 </document>

@@ -14,10 +14,12 @@
 		1B35DBD61DCA43D900558530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35DBD51DCA43D900558530 /* ViewController.swift */; };
 		1B35DBD81DCA488200558530 /* backButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBD71DCA488200558530 /* backButton.jpeg */; };
 		1B35DBDA1DCA488A00558530 /* forwardButton1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */; };
+		1B35DBDC1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBDB1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */; };
+		1B35DBDE1DCA4FF400558530 /* homeButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBDD1DCA4FF400558530 /* homeButton.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B35DBC01DCA435000558530 /* webView3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webView3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B35DBC01DCA435000558530 /* my App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B35DBC31DCA435000558530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B35DBC81DCA435000558530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B35DBCA1DCA435000558530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		1B35DBD51DCA43D900558530 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		1B35DBD71DCA488200558530 /* backButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backButton.jpeg; sourceTree = "<group>"; };
 		1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forwardButton1.jpeg; sourceTree = "<group>"; };
+		1B35DBDB1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf"; sourceTree = "<group>"; };
+		1B35DBDD1DCA4FF400558530 /* homeButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeButton.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,7 @@
 		1B35DBC11DCA435000558530 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B35DBC01DCA435000558530 /* webView3.app */,
+				1B35DBC01DCA435000558530 /* my App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,9 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				1B35DBD71DCA488200558530 /* backButton.jpeg */,
+				1B35DBDD1DCA4FF400558530 /* homeButton.jpeg */,
 				1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */,
 				1B35DBC31DCA435000558530 /* AppDelegate.swift */,
 				1B35DBD51DCA43D900558530 /* ViewController.swift */,
+				1B35DBDB1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */,
 				1B35DBC71DCA435000558530 /* Main.storyboard */,
 				1B35DBCA1DCA435000558530 /* Assets.xcassets */,
 				1B35DBCC1DCA435000558530 /* LaunchScreen.storyboard */,
@@ -73,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B35DBBF1DCA435000558530 /* webView3 */ = {
+		1B35DBBF1DCA435000558530 /* my App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B35DBD21DCA435000558530 /* Build configuration list for PBXNativeTarget "webView3" */;
+			buildConfigurationList = 1B35DBD21DCA435000558530 /* Build configuration list for PBXNativeTarget "my App" */;
 			buildPhases = (
 				1B35DBBC1DCA435000558530 /* Sources */,
 				1B35DBBD1DCA435000558530 /* Frameworks */,
@@ -85,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = webView3;
+			name = "my App";
 			productName = webView3;
-			productReference = 1B35DBC01DCA435000558530 /* webView3.app */;
+			productReference = 1B35DBC01DCA435000558530 /* my App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B35DBBB1DCA435000558530 /* Build configuration list for PBXProject "webView3" */;
+			buildConfigurationList = 1B35DBBB1DCA435000558530 /* Build configuration list for PBXProject "my App" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B35DBBF1DCA435000558530 /* webView3 */,
+				1B35DBBF1DCA435000558530 /* my App */,
 			);
 		};
 /* End PBXProject section */
@@ -131,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B35DBD81DCA488200558530 /* backButton.jpeg in Resources */,
+				1B35DBDE1DCA4FF400558530 /* homeButton.jpeg in Resources */,
 				1B35DBCE1DCA435000558530 /* LaunchScreen.storyboard in Resources */,
 				1B35DBDA1DCA488A00558530 /* forwardButton1.jpeg in Resources */,
+				1B35DBDC1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf in Resources */,
 				1B35DBCB1DCA435000558530 /* Assets.xcassets in Resources */,
 				1B35DBC91DCA435000558530 /* Main.storyboard in Resources */,
 			);
@@ -292,7 +300,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B35DBBB1DCA435000558530 /* Build configuration list for PBXProject "webView3" */ = {
+		1B35DBBB1DCA435000558530 /* Build configuration list for PBXProject "my App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B35DBD01DCA435000558530 /* Debug */,
@@ -301,7 +309,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B35DBD21DCA435000558530 /* Build configuration list for PBXNativeTarget "webView3" */ = {
+		1B35DBD21DCA435000558530 /* Build configuration list for PBXNativeTarget "my App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B35DBD31DCA435000558530 /* Debug */,

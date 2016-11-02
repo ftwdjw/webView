@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:webView3.xcodeproj">
+      location = "self:/Users/donnawetters/Documents/Developer/swift/webView3/my App.xcodeproj">
    </FileRef>
 </Workspace>
