@@ -16,6 +16,15 @@
 		1B35DBDA1DCA488A00558530 /* forwardButton1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */; };
 		1B35DBDC1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBDB1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */; };
 		1B35DBDE1DCA4FF400558530 /* homeButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBDD1DCA4FF400558530 /* homeButton.jpeg */; };
+		1B35DBE81DCA793800558530 /* forwardButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B35DBE71DCA793800558530 /* forwardButton.jpeg */; };
+		1B7F8C101DCB785200FC6D93 /* forward40.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C0F1DCB785200FC6D93 /* forward40.jpeg */; };
+		1B7F8C121DCB78CF00FC6D93 /* forward40a.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C111DCB78CF00FC6D93 /* forward40a.png */; };
+		1B7F8C141DCB848800FC6D93 /* forwardButtonPNG60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C131DCB848800FC6D93 /* forwardButtonPNG60.png */; };
+		1B7F8C161DCB84C700FC6D93 /* forwardButtonPNG120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C151DCB84C700FC6D93 /* forwardButtonPNG120.png */; };
+		1B7F8C181DCB850C00FC6D93 /* forwardButtonPNG180.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C171DCB850C00FC6D93 /* forwardButtonPNG180.png */; };
+		1B7F8C1A1DCB855600FC6D93 /* forwardButtonPNG80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C191DCB855600FC6D93 /* forwardButtonPNG80.png */; };
+		1B7F8C1E1DCB86E700FC6D93 /* forwardButtonPNG58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C1D1DCB86E700FC6D93 /* forwardButtonPNG58.png */; };
+		1B7F8C201DCB872400FC6D93 /* forwardButtonPNG87.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C1F1DCB872400FC6D93 /* forwardButtonPNG87.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,15 @@
 		1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forwardButton1.jpeg; sourceTree = "<group>"; };
 		1B35DBDB1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf"; sourceTree = "<group>"; };
 		1B35DBDD1DCA4FF400558530 /* homeButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeButton.jpeg; sourceTree = "<group>"; };
+		1B35DBE71DCA793800558530 /* forwardButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forwardButton.jpeg; sourceTree = "<group>"; };
+		1B7F8C0F1DCB785200FC6D93 /* forward40.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forward40.jpeg; sourceTree = "<group>"; };
+		1B7F8C111DCB78CF00FC6D93 /* forward40a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward40a.png; sourceTree = "<group>"; };
+		1B7F8C131DCB848800FC6D93 /* forwardButtonPNG60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG60.png; sourceTree = "<group>"; };
+		1B7F8C151DCB84C700FC6D93 /* forwardButtonPNG120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG120.png; sourceTree = "<group>"; };
+		1B7F8C171DCB850C00FC6D93 /* forwardButtonPNG180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG180.png; sourceTree = "<group>"; };
+		1B7F8C191DCB855600FC6D93 /* forwardButtonPNG80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG80.png; sourceTree = "<group>"; };
+		1B7F8C1D1DCB86E700FC6D93 /* forwardButtonPNG58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG58.png; sourceTree = "<group>"; };
+		1B7F8C1F1DCB872400FC6D93 /* forwardButtonPNG87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG87.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +80,35 @@
 		1B35DBC21DCA435000558530 /* webView3 */ = {
 			isa = PBXGroup;
 			children = (
-				1B35DBD71DCA488200558530 /* backButton.jpeg */,
-				1B35DBDD1DCA4FF400558530 /* homeButton.jpeg */,
-				1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */,
 				1B35DBC31DCA435000558530 /* AppDelegate.swift */,
 				1B35DBD51DCA43D900558530 /* ViewController.swift */,
 				1B35DBDB1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */,
 				1B35DBC71DCA435000558530 /* Main.storyboard */,
 				1B35DBCA1DCA435000558530 /* Assets.xcassets */,
+				1B7F8C0C1DCB778F00FC6D93 /* pics */,
 				1B35DBCC1DCA435000558530 /* LaunchScreen.storyboard */,
 				1B35DBCF1DCA435000558530 /* Info.plist */,
 			);
 			path = webView3;
+			sourceTree = "<group>";
+		};
+		1B7F8C0C1DCB778F00FC6D93 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				1B35DBD91DCA488A00558530 /* forwardButton1.jpeg */,
+				1B35DBD71DCA488200558530 /* backButton.jpeg */,
+				1B35DBDD1DCA4FF400558530 /* homeButton.jpeg */,
+				1B7F8C131DCB848800FC6D93 /* forwardButtonPNG60.png */,
+				1B7F8C191DCB855600FC6D93 /* forwardButtonPNG80.png */,
+				1B7F8C111DCB78CF00FC6D93 /* forward40a.png */,
+				1B7F8C1D1DCB86E700FC6D93 /* forwardButtonPNG58.png */,
+				1B7F8C1F1DCB872400FC6D93 /* forwardButtonPNG87.png */,
+				1B7F8C0F1DCB785200FC6D93 /* forward40.jpeg */,
+				1B7F8C151DCB84C700FC6D93 /* forwardButtonPNG120.png */,
+				1B7F8C171DCB850C00FC6D93 /* forwardButtonPNG180.png */,
+				1B35DBE71DCA793800558530 /* forwardButton.jpeg */,
+			);
+			name = pics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,13 +171,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7F8C1E1DCB86E700FC6D93 /* forwardButtonPNG58.png in Resources */,
 				1B35DBD81DCA488200558530 /* backButton.jpeg in Resources */,
 				1B35DBDE1DCA4FF400558530 /* homeButton.jpeg in Resources */,
 				1B35DBCE1DCA435000558530 /* LaunchScreen.storyboard in Resources */,
 				1B35DBDA1DCA488A00558530 /* forwardButton1.jpeg in Resources */,
 				1B35DBDC1DCA4F4D00558530 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf in Resources */,
+				1B7F8C1A1DCB855600FC6D93 /* forwardButtonPNG80.png in Resources */,
+				1B7F8C181DCB850C00FC6D93 /* forwardButtonPNG180.png in Resources */,
 				1B35DBCB1DCA435000558530 /* Assets.xcassets in Resources */,
+				1B7F8C101DCB785200FC6D93 /* forward40.jpeg in Resources */,
+				1B7F8C161DCB84C700FC6D93 /* forwardButtonPNG120.png in Resources */,
 				1B35DBC91DCA435000558530 /* Main.storyboard in Resources */,
+				1B35DBE81DCA793800558530 /* forwardButton.jpeg in Resources */,
+				1B7F8C121DCB78CF00FC6D93 /* forward40a.png in Resources */,
+				1B7F8C201DCB872400FC6D93 /* forwardButtonPNG87.png in Resources */,
+				1B7F8C141DCB848800FC6D93 /* forwardButtonPNG60.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +360,7 @@
 				1B35DBD41DCA435000558530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
